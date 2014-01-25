@@ -30,7 +30,7 @@ public class testFrame extends JFrame {
 	public static int totalScore = 0;
 	public static String playerName;	
 	LevelOne level1 = new LevelOne(1, 3, 3, 80, 1000);
-	LevelTow level2 = new LevelTow(2, 5, 5, 80, 2500);
+	LevelTow level2 = new LevelTwo(2, 5, 5, 80, 2500);
 	LevelThree level3 = new LevelThree(3, 7, 7, 80, 4000);
 	LevelFour level4 = new LevelFour(4, 7, 9, 80, 5500);
 	LevelFive level5 = new LevelFive(5, 7, 9, 80, 7000);
